@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>RedStore | Ecommerce Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http:\\fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    
+                    <li><a href="account.html">Account</a></li>
+                   
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+</div>
+
+
+<!-- ------- about page ------- -->
+<div class="row">
+    <div class="col-2">
+        <center><h2>About</h2></center>
+        <p>Welcome to Raidstore, where fitness meets fashion in a seamless blend of style and functionality. At raidstore, we believe that staying active shouldn't mean sacrificing 
+             your personal style. Our mission is to empower individuals to look and feel their best, whether they're hitting the gym, going for a run, or simply living their daily lives.</p>
+             </div>
+             </div>
+             <div class="row">
+                 <div class="col-2">
+             <h4><b>Our Products</h4></b>
+             <p>
+                From sleek and stylish watches to comfortable and versatile apparel, FitStyle offers a curated selection of workout essentials designed to complement your active lifestyle. Our collection includes: <br>
+
+<b>Performance Watches:</b> Stay on track and on time with our range of durable and functional watches, featuring advanced fitness tracking capabilities and stylish designs that seamlessly transition from the gym to the office.<br>
+<b>Athleisure T-Shirts:</b> Elevate your workout wardrobe with our premium-quality t-shirts crafted from breathable, moisture-wicking fabrics that keep you cool and comfortable during even the most intense workouts. <br>
+<b>Athletic Jeans:</b> Say goodbye to restrictive denim and hello to freedom of movement with our innovative line of athletic jeans, engineered with stretch technology and reinforced stitching for maximum durability and flexibility. <br>
+<b>Accessories:</b> Complete your look with our selection of workout accessories, including water bottles, gym bags, and more, designed to enhance your fitness experience both in and out of the gym.
+             </p>
+             <br>
+    </div>
+    </div>
+
+<!-- -------  footer ------- -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+              </div>
+
+              <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+                
+            </div>
+        </div>
+        <hr>
+        <p class="raid">Raid Store</p>
+
+    </div>
+</div>
+<!-- ------- js for toggle menu ------- -->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+</body>
+</html>
