@@ -5,10 +5,15 @@ RedStore is a responsive e-commerce website built using HTML, CSS, and JavaScrip
 🚀 Features
 
 Responsive navigation menu (mobile-friendly)
+
 Product listing page
+
 Product details page
+
 Shopping cart page
+
 User account page (Login / Register UI)
+
 Toggle menu using JavaScript
 
 🛠️ Tech Stack
